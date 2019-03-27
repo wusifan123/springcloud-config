@@ -3,8 +3,7 @@ server:
   servlet:
     context-path: /
 spring:
-  profiles:
-     active: prod
+  profiles: prod
   datasource:
     #引入druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
